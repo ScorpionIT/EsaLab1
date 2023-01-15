@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="EsaLab1:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/EsaLab1_war2</output-path>
+    <root id="archive" name="EsaLab1_war.war">
+      <element id="artifact" artifact-name="EsaLab1:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="EsaLab1/jpa/JPA" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
