@@ -1,7 +1,7 @@
 package com.example.esalab1;
 
-import com.example.esalab1.model.Author;
-import com.example.esalab1.services.AuthorService;
+import com.example.esalab1.model.Book;
+import com.example.esalab1.services.BookService;
 
 import javax.ejb.EJB;
 import javax.servlet.annotation.WebServlet;
@@ -12,11 +12,12 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-@WebServlet(name = "authorServlet", value = "/author-servlet")
-public class HelloServlet extends HttpServlet {
-    private List<Author> authorList;
+@WebServlet(name = "bookServlet", value = "/book-servlet")
+public class BookServlet extends HttpServlet {
+    private List<Book> bookList;
+
     @EJB
-    AuthorService authorService;
+    BookService bookService;
 
     public void init() {
     }
@@ -24,13 +25,13 @@ public class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
 
-        authorList = authorService.getAll();
+        bookList = bookService.getAll();
 
         // Printing all authors
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        for (Author author : authorList) {
-            out.println("<h1>" + author.getSurname() + "</h1>");
+        for (Book book : bookList) {
+            out.println("<h1>" + book.getName() + "</h1>");
         }
         out.println("</body></html>");
 

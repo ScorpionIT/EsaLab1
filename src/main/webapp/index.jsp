@@ -9,5 +9,12 @@
 </h1>
 <br/>
 <a href="author-servlet">Here is all authors</a>
+<p></p>
+<a href="book-servlet">Here is all books</a>
+<p></p>
+<a href="bookCreate.jsp">Add new book</a>
+<p></p>
+<a href="deleteBook.jsp">Delete book</a>
+<p></p>
 </body>
 </html>
