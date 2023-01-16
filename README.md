@@ -37,9 +37,38 @@ asadmin start-domain
 
 # Отображение данных бд на web
 
-![image](https://user-images.githubusercontent.com/87262680/212562808-a56eb052-d793-42dc-ba56-638440182518.png)
+![image](https://user-images.githubusercontent.com/87262680/212776997-f113d12c-c524-459a-9b14-97c2336dfdba.png)
 
-Если нажать на кнопку, то :
+По первой кнопке выводит список авторов
 
-![image](https://user-images.githubusercontent.com/87262680/212562850-2a7c5dfb-319e-4720-a7bd-fd54fcf57ddf.png)
+![image](https://user-images.githubusercontent.com/87262680/212777031-05a1ac9d-eec9-4b46-81a2-3f7df52e9c42.png)
+
+По второй ссылке выводит список книг
+
+![image](https://user-images.githubusercontent.com/87262680/212777599-61d28a17-5626-445c-82ef-94dcfa3ad191.png)
+
+Третья ссылка это окно добавления книги, добавим например еще одну книгу лавкрафта азатот:
+
+![image](https://user-images.githubusercontent.com/87262680/212777158-b5cf3b76-df46-4fb4-adab-2398e65b1594.png)
+
+После редиректа на главную страницу если снова вывести список книг увидим там Азатота:
+
+![image](https://user-images.githubusercontent.com/87262680/212777231-51b6f647-e17a-4aef-9c24-2e45b05be9a9.png)
+
+Четвертая ссылка с главной страницы ведет на страницу удаления книги, где вводится ее название:
+
+![image](https://user-images.githubusercontent.com/87262680/212777351-5d2f886d-fff6-4859-bf44-f77fbf93809a.png)
+ 
+Удалим созданного азатота и проверим что все удалилось:
+
+![image](https://user-images.githubusercontent.com/87262680/212777423-bac37f94-02bf-40c6-9e55-10df486bc275.png)
+
+![image](https://user-images.githubusercontent.com/87262680/212777461-f80c1924-cc77-49d2-8bd3-00a38340d12f.png)
+
+![image](https://user-images.githubusercontent.com/87262680/212777472-c3a567c5-8375-4a0d-a0df-d8605ee0503b.png)
+
+Удаление происходит по вводу имени, сначала находится книга по имени, а потом она удаляется.
+
+
+
 
